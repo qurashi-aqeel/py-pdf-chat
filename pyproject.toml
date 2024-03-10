@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "py-pdf-chat"
+version = "0.1.0"
+description = ""
+authors = ["Qurashi Aqeel <qurashiakeel786@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+streamlit = "^1.32.0"
+google-generativeai = "^0.4.0"
+python-dotenv = "^1.0.1"
+langchain = "^0.1.11"
+pypdf2 = "^3.0.1"
+faiss-cpu = "^1.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
